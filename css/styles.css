@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.landingPage{
+    background: url(../images/backgrounds/h_image.jpg);
+    max-height: 100vh;
+}
+/*.aboutUs{
+
+}*/
+.services{
+    background: url(../images/backgrounds/s_image.jpg);
+
+}
+/*.whatWeDo{
+
+}*/
+/*.portfolio{
+
+}*/
+.contactUs{
+    background: url(../images/backgrounds/c_image.jpg);
+
+}
