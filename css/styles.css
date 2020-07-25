@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'PT Sans', sans-serif;
     background-color: #fff;
@@ -7,24 +9,33 @@ body{
     line-height: 1.6;
 }
 
-.landingPage{
+#landingPage{
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100%;
-    background:url('../images/backgrounds/h_img.jpg')no-repeat;
+    background:url('../images/backgrounds/h_img.jpg')no-repeat center/cover;
     text-align: center;
     color: #fff;
+    position: relative;
+    overflow-y: hidden;
 }
-/*.aboutUs{
+#landingPage .container{
+    margin-top: 75vh;
+}
+.aboutUs{
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
 
-}*/
+}
 .services{
     margin: 0;
-    padding: 0;
+    padding: 5rem;
     width: 100%;
-    background:url('../images/backgrounds/s_image.jpg')no-repeat;
+    background:url('../images/backgrounds/s_image.jpg')no-repeat center/cover;
     color: #fff;
+    text-align: center;
 }
 /*.whatWeDo{
 
@@ -40,4 +51,17 @@ body{
     color: #fff;
 
 
+}
+.whatWeDo{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+}
+.socialMedia{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+footer{
+    text-align: center;
 }
