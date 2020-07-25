@@ -20,8 +20,8 @@ body{
     position: relative;
     overflow-y: hidden;
 }
-#landingPage .container{
-    margin-top: 75vh;
+#landingPage .content{
+    margin-top: top 75vh;;
 }
 .aboutUs{
     margin: 0;
@@ -47,21 +47,15 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    background:url('../images/backgrounds/c_image.jpg')no-repeat center/cover;
+    height: 100vh;
+    background:url('../images/backgrounds/c_image.jpg');
     color: #fff;
-
-
 }
-.whatWeDo{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: left;
-}
-.socialMedia{
+/*.socialMedia{
+    padding-top: 2rem ;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-}
+}*/
 footer{
     text-align: center;
 }
