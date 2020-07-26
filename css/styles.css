@@ -20,13 +20,9 @@ body{
     position: relative;
     overflow-y: hidden;
 }
-#landingPage .content{
-    margin-top: top 75vh;;
-}
 .aboutUs{
     margin: 0;
     padding: 2rem;
-    text-align: center;
 
 }
 .services{
@@ -38,18 +34,15 @@ body{
     text-align: center;
 }
 .whatWeDo{
-    text-align: center;
-    margin: 0;
     padding-bottom: 5rem;
-    padding-top: 5rem;
-
-}
-.row{
     padding-top: 2rem;
-}
-/*.portfolio{
 
-}*/
+}
+.portfolio{
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    padding-right:  15rem;
+}
 
 .hidenn{
     display: none;
@@ -62,11 +55,11 @@ body{
     background:url('../images/backgrounds/c_image.jpg');
     color: #fff;
 }
-/*.socialMedia{
+.socialMedia{
     padding-top: 2rem ;
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-}*/
+    padding-bottom: 2rem;
+    padding-left:  15rem;
+}
 footer{
     text-align: center;
 }

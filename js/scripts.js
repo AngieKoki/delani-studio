@@ -16,8 +16,8 @@ $(document).ready(function(){
     $('.design').click(function(){
         $('.design').toggle();
         $('.showDesign').toggle();
-        $('p').click(function(){
-            $('p').hide();
+        $('.showDesign').click(function(){
+            $('.showDesign').hide();
             $('.design').show();
         });
     });
@@ -43,3 +43,7 @@ $(document).ready(function(){
         });
     });
 });
+
+$(document).ready(function(){
+    $('')
+})
