@@ -37,12 +37,23 @@ body{
     color: #fff;
     text-align: center;
 }
-/*.whatWeDo{
+.whatWeDo{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 
-}*/
+}
+.row{
+    padding-top: 2rem;
+}
 /*.portfolio{
 
 }*/
+
+.hidenn{
+    display: none;
+}
 .contactUs{
     margin: 0;
     padding: 0;
