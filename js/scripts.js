@@ -45,5 +45,28 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('')
-})
+    $('.blank').hover(function(){
+        $('.blank').addClass('portfolioHover');
+    });
+    $('.ontario').hover(function(){
+        $('.ontario').addClass('portfolioHover');
+    });
+    $('.orange').hover(function(){
+        $('.orange').addClass('portfolioHover');
+    });
+    $('.games').hover(function(){
+        $('.games').addClass('portfolioHover');
+    });
+    $('.good').hover(function(){
+        $('.good').addClass('portfolioHover');
+    });
+    $('.checklist').hover(function(){
+        $('.checklist').addClass('portfolioHover');
+    });
+    $('.burned').hover(function(){
+        $('.burned').addClass('portfolioHover');
+    });
+    $('.giraffe').hover(function(){
+        $('.giraffe').addClass('portfolioHover');
+    });
+});
