@@ -6,7 +6,7 @@ body{
     font-family: 'PT Sans', sans-serif;
     background-color: #fff;
     margin: 0;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 #landingPage{
@@ -19,6 +19,15 @@ body{
     color: #fff;
     position: relative;
     overflow-y: hidden;
+}
+.logo{
+    margin-top: 30vh;
+}
+.intro{
+    padding-top:2rem;
+}
+.mouse{
+    margin-top:23vh;
 }
 .aboutUs{
     margin: 0;

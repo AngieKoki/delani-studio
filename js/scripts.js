@@ -46,9 +46,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.blank').hover(function(){
+        $('.blank').removeClass('portfolioHover');
         $('.blank').addClass('portfolioHover');
     });
     $('.ontario').hover(function(){
+        $('.ontario').removeClass('portfolioHover');
         $('.ontario').addClass('portfolioHover');
     });
     $('.orange').hover(function(){
