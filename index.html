@@ -51,30 +51,24 @@
     <!--What We Do section-->
     <section>
         <div class='container text-center'>
-            <h1>WHAT WE DO</h1>
+            <h1 class="whatWeDo">WHAT WE DO</h1>
             <div class='row whatWeDo'>
                     <div class='col-md-4'>
-
-                        <div class='design'>
-                            <img src="/images/services_icons/design_icon.png" alt="Design"></div>
+                        <div class='design'><img src="/images/services_icons/design_icon.png" alt="Design"></div>
                         <h2>DESIGN</h2>
-                        
-                        <div class='showDesign hidenn'>
-                            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                            <p class='hiddenn showDesign'>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                            
-                        </div>
                     </div>
                     <div class='col-md-4'> 
                         <img src="/images/services_icons/dev_icon.png" alt="Development" class='development'>
                         <h2>DEVELOPMENT</h2>
-                        <p class='showDev hidenn'>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                        <p class='hiddenn showDev'>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                             They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
                     <div class='col-md-4'> 
                         <img src="/images/services_icons/product_icon.png" alt="Product Management" class='product'>
                         <h2>PRODUCT MANAGEMENT</h2>
-                        <p class='showProduct hidenn'>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                        <p class='hiddenn showProduct'>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                             This iterative process allows for changes as business requirements evolve.</p>
                     </div>
             </div>
@@ -87,34 +81,34 @@
         <div class='container text-center'>
             <h1 class='text-center'>PORTFOLIO</h1>
             <div class='portfolio row'>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work4.jpg" alt='Blank Website'class='blank'>
                 </div>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work2.jpg" alt='Ontario'class='ontario'>
                 </div>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work3.jpg" alt='Orange app'class='orange'>
                 </div>
             </div>
 
             <div class ='portfolio row'>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work1.jpg" alt='Games'class='games'>
                 </div>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work5.jpg" alt='Good Website'class='good'>
                 </div>
-                <div class='col-md-4'>
+                <div class='col-md-4 effect'>
                     <img src="/images/portfolio/work6.jpg" alt='Checklist'class='checklist'>
                 </div>
             </div>
 
             <div class='portfolio row'>
-                <div class='col-md-6'>
+                <div class='col-md-6 effect'>
                     <img src="/images/portfolio/work7.jpg" alt='Burned Eatery'class='burned'>
                 </div>
-                <div class='col-md-6'>
+                <div class='col-md-6 effect'>
                     <img src="/images/portfolio/work8.jpg" alt='Giraffe Restaurant'class='giraffe'>
                 </div>
             </div>
@@ -128,24 +122,22 @@
         <div class='contactUs text-center'>
             <div class='container'>
             <h1>CONTACT US</h1>
-            <form>
+            <form class='form'>
                 <div class='row'>
                     <div class='col-md-6'>
-                        <label for="name">Name...</label>
-                        <input id='name' type="text">
+                        <input id='name' type="text" class='form-control'  placeholder="Name...">
                     </div>
                     <div class='col-md-6'>
-                        <label for="email">Email...</label>
-                        <input id="email" type="email">
+                        <input id="email" type="email" class='form-control' placeholder="Email...">
                     </div>
 
                 </div>
-                <div class='row col-md-12'>
-                    <label for="message">Type your message here</label>
-                    <input id="message" type="text">
+                <div class='message row'>
+                    <div class='col-md-12'>
+                        <input id="message" type="text" class='form-control'placeholder="Type your message here...">
 
+                    </div>
                 </div>
-
             </form>
             </div>
         </div>
