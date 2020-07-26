@@ -29,6 +29,10 @@ $(document).ready(function(){
             $('.product').show();
         });
     });
+    //ALERT MESSAGE
+    $('#message').click(function(){
+        $(alert('Thank you for your feedback, we will get back to you soon!'));
+    })
 });
 
 /*$(document).ready(function(){
