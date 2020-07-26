@@ -1,23 +1,10 @@
-//BUSINESS LOGIC
-
-
-
-
-
-
-
-
-
-
-
-
 //FRONT-END LOGIC
 $(document).ready(function(){
     $('.design').click(function(){
         $('.design').toggle();
         $('.showDesign').toggle();
-        $('.showDesign').click(function(){
-            $('.showDesign').hide();
+        $('p').click(function(){
+            $('p').hide();
             $('.design').show();
         });
     });
@@ -44,10 +31,10 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('.blank').hover(function(){
-        $('.blank').removeClass('portfolioHover');
         $('.blank').addClass('portfolioHover');
+        $('.blank').removeClass('portfolioHover');
     });
     $('.ontario').hover(function(){
         $('.ontario').removeClass('portfolioHover');
@@ -71,4 +58,4 @@ $(document).ready(function(){
     $('.giraffe').hover(function(){
         $('.giraffe').addClass('portfolioHover');
     });
-});
+});*/

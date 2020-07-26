@@ -52,7 +52,11 @@ body{
 .portfolio{
     padding-top: 2rem ;
     padding-bottom: 2rem;
-    padding-right:  15rem;
+    padding-right:0px;
+    padding-left: 6px;
+}
+.gap{
+    column-gap: 5px;
 }
 
 .hidenn{
@@ -72,7 +76,7 @@ body{
     padding-left:  15rem;
 }
 .portfolioHover{
-    border: solid 2px
+    border: solid 4px #fff
 }
 footer{
     text-align: center;
