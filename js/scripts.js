@@ -1,40 +1,56 @@
 //FRONT-END LOGIC
+//Toggle code
 $(document).ready(function(){
+//Design
     $('.design').click(function(){
-        $('.design').toggle();
-        $('.showDesign').toggle();
-        $('p').click(function(){
-            $('p').hide();
-            $('.design').show();
-        });
+        $('.showDesign').hide().toggle();
+        $('.design').slideUp();
     });
-});
-$(document).ready(function(){
+    $('.hiddenn').click(function(){
+        $('.design').slideDown();
+        $('.showDesign').hide();
+    });
+//Development
     $('.development').click(function(){
-        $('.development').toggle();
-        $('.showDev').toggle();
-        $('p').click(function(){
-            $('p').hide();
-            $('.development').show();
-        });
-     
-    });   
-});
-$(document).ready(function(){
-    $('.product').click(function(){
-        $('.product').toggle();
-        $('.showProduct').toggle();
-        $('p').click(function(){
-            $('p').hide();
-            $('.product').show();
-        });
+        $('.showDev').hide().toggle();
+        $('.development').slideUp();  
     });
-    //ALERT MESSAGE
-    $('#message').click(function(){
-        $(alert('Thank you for your feedback, we will get back to you soon!'));
-    })
+    $('.showDev').click(function(){
+        $('.development').slideDown();
+        $('.showDev').slideUp();  
+    });
+//Product Management
+
+    $('.product').click(function(){
+        $('.showProduct').hide().toggle();
+        $('.product').slideUp();
+    });
+    $('.showProduct').click(function(){
+        $('.product').slideDown();
+        $('.showProduct').slideUp();
+    });
+
 });
 
+
+/*document.getElementById('submit').addEventListener('click',
+    function submit(event){
+        event.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var  message= document.getElementById('message').value;
+
+        if (name ==='' & email==='' & message===''){
+            alert('Kindly fill in the necessary fields');
+        }
+        else if(message ===''){
+            alert(name + ' please type in your message')
+        }
+        else {
+            alert('Hello ' + name +' we have received your message.Thank you for reaching out, we will get back to you as soon as possible')
+        }
+
+}/*
 /*$(document).ready(function(){
     $('.blank').hover(function(){
         $('.blank').addClass('portfolioHover');

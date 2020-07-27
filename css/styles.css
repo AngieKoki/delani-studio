@@ -77,6 +77,10 @@ body{
 .effect:hover{
     border: solid 4px #fff
 }
+.form-control{
+    background: transparent;
+    color: #fff;
+}
 footer{
     text-align: center;
 }

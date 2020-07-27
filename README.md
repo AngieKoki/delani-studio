@@ -1,7 +1,7 @@
 # DELANI STUDIO
 
 ## Project description
-This is a website implements everything I have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
+This is a website that implements everything I have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
 
 ## Author
 Angela Koki
