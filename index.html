@@ -19,7 +19,7 @@
                         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
                 </div>
                 <div class='mouse'>
-                    <img src="/images/mouse_click.png" alt='mouse_click'>
+                    <img src="/images/mouse_click.png" alt='mouse_click' id ='mouseAnimate'>
                 </div>
             </div>
            
@@ -81,35 +81,57 @@
         <div class='container text-center'>
             <h1 class='text-center'>PORTFOLIO</h1>
             <div class='portfolio row'>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work4.jpg" alt='Blank Website'class='blank'>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work4.jpg" alt='Blank Website'class='img-fluid' id='effect1'>
+                    <div class='project'>
+                        <p class='text-center'>BLUEPRINT</p>
+                    </div>
                 </div>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work2.jpg" alt='Ontario'class='ontario'>
+                <div class='col-md-3 '>
+                    <img src="/images/portfolio/work3.jpg" alt='Ontario'class='img-fluid' id='effect2'>
+                    <div class='project'>
+                        <p class="text-center">ONTARIO</p>
+                    </div>
                 </div>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work3.jpg" alt='Orange app'class='orange'>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work2.jpg" alt='Orange app'class='img-fluid' id='effect3'>
+                    <div class='project'>
+                        <p class="text-center">Orange app</p>
+                    </div>
+                </div>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work1.jpg" alt='Games'class='img-fluid' id='effect4'>
+                    <div class='project'>
+                        <p class="text-center">Games</p>
+                    </div>
                 </div>
             </div>
 
             <div class ='portfolio row'>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work1.jpg" alt='Games'class='games'>
+               
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work5.jpg" alt='Good Website'class='img-fluid'id='effect5'>
+                    <div class='project'>
+                        <p class="text-center">Good Website</p>
+                    </div>
                 </div>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work5.jpg" alt='Good Website'class='good'>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work6.jpg" alt='Checklist'class='img-fluid' id='effect6'>
+                    <div class='project'>
+                        <p class="text-center">Checklist app</p>
+                    </div>
                 </div>
-                <div class='col-md-4 effect'>
-                    <img src="/images/portfolio/work6.jpg" alt='Checklist'class='checklist'>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work7.jpg" alt='Burned Eatery'class='img-fluid' id='effect7'>
+                    <div class='project'>
+                        <p class="text-center">Burned Eatery</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class='portfolio row'>
-                <div class='col-md-6 effect'>
-                    <img src="/images/portfolio/work7.jpg" alt='Burned Eatery'class='burned'>
-                </div>
-                <div class='col-md-6 effect'>
-                    <img src="/images/portfolio/work8.jpg" alt='Giraffe Restaurant'class='giraffe'>
+                <div class='col-md-3'>
+                    <img src="/images/portfolio/work8.jpg" alt='Giraffe Restaurant'class='img-fluid' id='effect8'>
+                    <div class='project'>
+                        <p class="text-center">Giraffe Restaurant</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,16 +152,16 @@
                     <div class='col-md-6'>
                         <input id="email" type="email" class='form-control' placeholder="Email...">
                     </div>
-
                 </div>
-                <div class='message row'>
+                <div class='message'>
                     <div class='col-md-12'>
-                        <!-- <br>
-                        <textarea id="message" type="text" class='form-control'placeholder="Type your message here...">
-                        <br> -->
+                        <textarea id="message" type="text" class='form-control' rows=12 placeholder="Type your message here..."></textarea>
                     </div>
                 </div>
-                
+                <div>
+                    <button type='submit' id='submit' class='btn btn-block btn-outline-light'>Submit</button>
+                </div>
+            
             </form>
             </div>
         </div>

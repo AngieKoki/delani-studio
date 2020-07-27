@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.showDesign').hide().toggle();
         $('.design').slideUp();
     });
-    $('.hiddenn').click(function(){
+    $('.showDesign').click(function(){
         $('.design').slideDown();
         $('.showDesign').hide();
     });
@@ -32,8 +32,69 @@ $(document).ready(function(){
 
 });
 
+//Hover
+//PROJECT1
+$(document).ready(function(){
+    $('#effect1').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect1').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT2
+    $('#effect2').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect2').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT3
+    $('#effect3').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect3').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT4
+    $('#effect4').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect4').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT5
+    $('.effect5').mouseover(function(){
+        $('.project').show();
+    });
+    $('.effect5').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT6
+    $('#effect6').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect6').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT7
+    $('#effect7').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect7').mouseout(function(){
+        $('.project').hide();
+    })
+//PROJECT8
+    $('#effect8').mouseover(function(){
+        $('.project').show();
+    });
+    $('#effect8').mouseout(function(){
+        $('.project').hide();
+    })
 
-/*document.getElementById('submit').addEventListener('click',
+});
+
+
+document.getElementById('submit').addEventListener('click',
     function submit(event){
         event.preventDefault();
         var name = document.getElementById('name').value;
@@ -49,33 +110,4 @@ $(document).ready(function(){
         else {
             alert('Hello ' + name +' we have received your message.Thank you for reaching out, we will get back to you as soon as possible')
         }
-
-}/*
-/*$(document).ready(function(){
-    $('.blank').hover(function(){
-        $('.blank').addClass('portfolioHover');
-        $('.blank').removeClass('portfolioHover');
-    });
-    $('.ontario').hover(function(){
-        $('.ontario').removeClass('portfolioHover');
-        $('.ontario').addClass('portfolioHover');
-    });
-    $('.orange').hover(function(){
-        $('.orange').addClass('portfolioHover');
-    });
-    $('.games').hover(function(){
-        $('.games').addClass('portfolioHover');
-    });
-    $('.good').hover(function(){
-        $('.good').addClass('portfolioHover');
-    });
-    $('.checklist').hover(function(){
-        $('.checklist').addClass('portfolioHover');
-    });
-    $('.burned').hover(function(){
-        $('.burned').addClass('portfolioHover');
-    });
-    $('.giraffe').hover(function(){
-        $('.giraffe').addClass('portfolioHover');
-    });
-});*/
+});
